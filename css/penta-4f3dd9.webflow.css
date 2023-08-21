@@ -1,0 +1,209 @@
+.section {
+  height: 80vh;
+  -webkit-text-fill-color: inherit;
+  background-color: rgba(51, 38, 38, .72);
+  background-image: linear-gradient(rgba(0, 0, 0, .55), rgba(28, 27, 27, .63)), url('../images/pexels-nick-wehrli-5282585.jpg');
+  background-position: 0 0, 0 0;
+  background-repeat: repeat, repeat;
+  background-size: auto, contain;
+  background-clip: padding-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.heading {
+  color: #fff;
+  text-align: center;
+  font-family: Playfair Display, sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.image {
+  position: absolute;
+  top: 3%;
+  bottom: auto;
+  left: 2%;
+  right: auto;
+}
+
+.text-block {
+  color: #b9a186;
+  text-align: center;
+  letter-spacing: 17px;
+  font-family: Droid Sans, sans-serif;
+  font-size: 20px;
+}
+
+.heading-2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 32px;
+  padding-bottom: 81px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Urwdin, sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.div-block {
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 102px;
+  margin-bottom: 31px;
+  display: flex;
+}
+
+.info-block {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 59px;
+  font-size: 10px;
+}
+
+.ha {
+  margin-bottom: 28px;
+  font-family: Urwdin, sans-serif;
+  font-size: 25px;
+  display: block;
+}
+
+.section-2 {
+  width: 100%;
+  background-color: #2a2a2a;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 10px;
+  display: flex;
+  position: relative;
+}
+
+.image-2 {
+  width: 160px;
+  text-align: center;
+}
+
+.text-block-2 {
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: none;
+  margin-top: 49px;
+  margin-bottom: 46px;
+  font-family: Droid Sans, sans-serif;
+  font-weight: 700;
+}
+
+.div-block-2 {
+  text-align: center;
+}
+
+.button {
+  background-color: #b9a186;
+  margin-right: 20px;
+  padding-top: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: Urwdin, sans-serif;
+  font-size: 21px;
+  line-height: 50px;
+}
+
+.button-2 {
+  background-color: #b9a186;
+  margin-left: 20px;
+  padding-top: 13px;
+  font-family: Urwdin, sans-serif;
+  font-size: 21px;
+  line-height: 50px;
+}
+
+.rich-text-block {
+  line-height: 20px;
+}
+
+.section-3 {
+  height: 108px;
+  background-color: #000;
+}
+
+.html-embed {
+  position: fixed;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.text-span, .text-span-2 {
+  font-weight: 400;
+}
+
+.text-span-3 {
+  color: rgba(255, 255, 255, .52);
+  letter-spacing: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.div-block-3 {
+  background-color: #212121;
+  margin-bottom: 70px;
+  padding-top: 47px;
+}
+
+.html-embed-2 {
+  position: fixed;
+  bottom: 10px;
+}
+
+.paragraph {
+  text-align: center;
+  margin-top: 81px;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.text-span-4 {
+  color: #b9a186;
+}
+
+.s {
+  color: #b9a185;
+  text-align: center;
+  justify-content: center;
+  margin-top: 9px;
+  text-decoration: underline;
+  display: flex;
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    font-size: 40px;
+  }
+
+  .heading-2 {
+    font-size: 17px;
+  }
+
+  .ha {
+    font-size: 19px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Maverix';
+  src: url('../fonts/maverix.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Urwdin';
+  src: url('../fonts/URWDIN-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
